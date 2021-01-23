@@ -1,0 +1,117 @@
+baseURL = "https://tabearoeber.github.io/"
+languageCode = "en-us"
+title = "Hello, I am Tabea"
+theme="hello-friend-ng"
+
+paginate     = 10
+canonifyurls = true  # Enable to turn relative URLs into absolute.
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Subtitle for home
+  homeSubtitle = "graduate stats student with a passion for design and psychology"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you linke
+  enableSharingButtons = true
+
+  # Metadata mostly used in document's head
+  description = "personal website"
+  keywords = ""
+  images = [""]
+
+  # Default theme "light" or "dark"
+  defaultTheme = "light"
+
+  # Custom footer
+  # If you want, you can easily override the default footer with your own content.
+  #
+  footerLeft = "Powered by <a href=\"http://gohugo.io\">Hugo</a> and <a href=\"https://github.com/rhazdon/hugo-theme-hello-friend-ng\">Hello Friend NG</a>"
+  footerRight = "Made by <a href=\"https://github.com/tabearoeber\">Tabea Röber</a>"
+
+
+  [params.logo]
+
+    logoText = "hello"
+    logoHomeLink = "/"
+
+    # Uncomment this if you want a portrait on your start page
+    #
+  [params.portrait]
+    path     = "sticker.png"
+    alt      = "Portrait"
+    maxWidth = "150px"
+
+  # Social icons
+  # [[params.social]]
+  #   name = "twitter"
+  #   url  = "https://twitter.com/"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:tabea.roeber@yahoo.de"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/tabearoeber"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/tabea-roeber"
+
+  # [[params.social]]
+  #   name = "stackoverflow"
+  #   url  = "https://www.stackoverflow.com/"
+
+  [params.favicon]
+    path = "favicon.ico"
+
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "Hello, I am Tabea"
+    subtitle = "Welcome to my personal website"
+    keywords = ""
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "hello"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "ABOUT"
+    url        = "/about/"
+    #weight     = 90
+  [[menu.main]]
+    identifier = "books"
+    name       = "BOOKSHELF"
+    url        = "/books/"
+  [[menu.main]]
+    identifier = "cv"
+    name       = "CV"
+    url        = "cv/TabeaRöber_CV.pdf"
+  [[menu.main]]
+    identifier = "professional"
+    name       = "PROFESSIONAL"
+    url        = "/professional/"
+  # And you can even create generic menu
+  #[[menu.main]]
+  #  identifier = "blog"
+  #  name       = "Blog"
+  #  url        = "/posts"
