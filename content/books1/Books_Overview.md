@@ -22,7 +22,7 @@ date = "2014-04-09"
 | The president is missing | Bill Clinton and James Patterson | Yeah | different from what I expected but certainly a nice book |  |
 | The great Gatsby | F. Scott Fitzgerald | Hmm..&#129300; | not really my taste, but certainly a classic that should be read |  |
 | Ich war Hitlerjunge Salomon | Sally Perel | Yes! | I met the author in person, and I think his story is incredible. I remember the book to be very good. |  |
-| The time machine | H.G. Wells | Hmm..&#129300; | interesting imagination of the future | again, I think H.G Wells' books should get attention, but the writing style is obviously very difficult which makes it really hard to readPride and Prejudice |
+| The time machine | H.G. Wells | Hmm..&#129300; | interesting imagination of the future | again, I think H.G Wells' books should get attention, but the writing style is obviously very difficult which makes it really hard to read |
 | Pride and Prejudice | Jane Austen | Yes | very nice book to just relax without thinking too much | maybe a bit cliché, but well...sometimes something like this is exactly right |
 
 </div>
